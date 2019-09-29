@@ -5,7 +5,23 @@ html{
     overflow: hidden;
 }
 
+.w3-row{
+    width:100%;
+}
+.w3-col{
+    width:33.3%;
+    position: relative;
+}
 
+
+.card{
+    background-color: white;
+    position: block;
+}
+
+#content-cards{
+    background-color:grey;
+}
 #hero-video{
     width:200%;
     max-width: 1940px;
@@ -57,7 +73,8 @@ transition-delay: 0.8ms;
 
 #doc-t_header {
 position: absolute;
-width: 1440px;
+max-width: 1440px;
+width:100%;
 height: 124px;
 left: 0px;
 top: 0px;
@@ -67,14 +84,14 @@ z-index: 9999;
 #doc-t_headline{
     position: absolute;
 left: 3.89%;
-right: 60.14%;
+// right: 60.14%;
 top: -25.1%;
 bottom: 94.66%;
 -webkit-text-fill-color: #FFFFFF;
 font-family: Rubik Mono One;
 font-style: normal;
 font-weight: bold;
-font-size: 48px;
+font-size: 3rem;
 line-height: 59px;
 letter-spacing: -0.5px;
 
@@ -86,7 +103,7 @@ mix-blend-mode: normal;
 #doc-t_subheadline{
     position: absolute;
 left: 3.89%;
-right: 60.14%;
+// right: 60.14%;
 top: 7.7%;
 bottom: 94.66%;
 -webkit-text-fill-color: #FFFFFF;
@@ -94,7 +111,7 @@ bottom: 94.66%;
 font-family: Ubuntu Mono;
 font-style: normal;
 font-weight: normal;
-font-size: 48px;
+font-size: 2.2rem;
 line-height: 48px;
 letter-spacing: -0.5px;
 
