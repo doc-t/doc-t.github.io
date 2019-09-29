@@ -4,15 +4,6 @@ html {
   overflow: hidden;
 }
 
-.w3-row {
-  width: 100%;
-}
-
-.w3-col {
-  width: 33.3%;
-  position: relative;
-}
-
 .card {
   background-color: white;
   position: block;
@@ -23,8 +14,8 @@ html {
 }
 
 #hero-video {
-  width: 200%;
-  max-width: 1940px;
+  width: 110%;
+  max-width: 1440px;
   max-height: 332px;
   margin-left: -8px;
   height: 100%;
@@ -34,7 +25,9 @@ html {
   box-shadow: 5px 12px 24px rgba(0, 0, 0, 0.2);
 }
 #hero-video video {
-  max-width: 150%;
+  width: 100%;
+  margin-left: -20px;
+  margin-top: -50px;
   position: relative;
   z-index: 0;
   background-color: white;
